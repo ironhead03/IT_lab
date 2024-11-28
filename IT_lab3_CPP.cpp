@@ -19,5 +19,5 @@ int main()
     Person person;
 }
 
-//Типы: Leg, Arm, Person, int, std::array
-//Объекты: length, power, legs, arms, person
+//Типы:/Types: Leg, Arm, Person, int, std::array
+//Объекты:/Objects: length, power, legs, arms, person
