@@ -4,7 +4,7 @@ using namespace std;
 #include <array>
 #include <cassert>
 
-//ñ öèêëîì for
+//с циклом for
 void forProduct(std::span<int> inputOutput, std::span<int> coefficients)
 {
 	assert(inputOutput.size() == coefficients.size());
@@ -21,7 +21,7 @@ void forProduct(std::span<int> inputOutput, std::span<int> coefficients)
 	}
 }
 
-//ñ öèêëîì while
+//с циклом while
 void whileProduct(std::span<int> inputOutput, std::span<int> coefficients)
 {
 	assert(inputOutput.size() == coefficients.size());
