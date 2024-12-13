@@ -7,9 +7,6 @@ void findSpace(string_view line)
 {
 	bool isSpace = false;
 
-	string_view secondWord(line.data() + 4, 9);
-	cout << "Control Word: " << secondWord << endl << "Output: ";
-
 	for (int i = 0; i < line.size(); i++)
 	{
 		if (line[i] == ' ')
